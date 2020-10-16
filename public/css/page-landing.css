@@ -53,11 +53,12 @@ main h1 {
 
 /* Versão para desktop */
 @media (min-width: 760px) {
-    #container{
+    #container {
         padding: 5rem 2rem;
         /* Shorthand background: image repeat postion / size */
         background: url("../images/bg.svg") no-repeat 80% / clamp(30rem, 54vw, 56rem);
     }
+
     header {
         display: flex;
         align-items: center;

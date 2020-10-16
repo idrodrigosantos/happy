@@ -24,7 +24,7 @@ aside.sidebar footer button {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 0.2s;
+    transition: background 0.2s;
 }
 
 aside.sidebar footer button:hover {
@@ -178,12 +178,12 @@ main {
     height: 6.4rem;
     border: 0;
     cursor: pointer;
-    background-color: #3cdc8c;
+    background: #3cdc8c;
     border-radius: 2rem;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: baseline;
+    justify-content: center;
     transition: background-color 0.2s;
 }
 

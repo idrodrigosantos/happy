@@ -21,7 +21,7 @@
     }
 }
 
-@keayframes appear {
+@keyframes appear {
     from {
         opacity: 0;
     }

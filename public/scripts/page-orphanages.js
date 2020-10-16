@@ -8,7 +8,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Cria ícone
 const icon = L.icon({
-    iconUrl: "public/images/map-marker.svg",
+    iconUrl: 'public/images/map-marker.svg',
     iconSize: [58, 67],
     iconAnchor: [29, 68],
     popupAnchor: [170, 2]
