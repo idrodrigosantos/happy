@@ -1,10 +1,10 @@
-// Importa o pacote
+// Importa os pacotes
 const express = require('express');
 const path = require('path');
 const pages = require('./pages.js');
 
 // Iniciando o express
-const server = express()
+const server = express();
 
 server
     // Utilizar body do req

@@ -18,7 +18,7 @@ Database.then(async db => {
             "https://source.unsplash.com/xtd3zYWxEs4",
         ].toString(),
         instructions: "Venha como se sentir a vontade e traga muito amor e paciência para dar.",
-        opening_hours: "Horário de visitas Das 8h até 18h",
+        opening_hours: "Horário de visitas das 8h até 18h",
         open_on_weekends: "1"
     });
 
