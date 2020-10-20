@@ -1,5 +1,5 @@
 # Happy
-Sistema para cadastro e consulta de orfanatos.
+Sistema de orfanatos.
 
 ## Softwares necessários
 * Editor de código-fonte
@@ -41,8 +41,8 @@ http://localhost:5500/
 * JavaScript
 * Node.js
 * SQLite
-* Express
 * Handlebars
+* Express.js
 
 ## Dependências
 * [Express](https://github.com/expressjs/express)
