@@ -3,25 +3,25 @@ const express = require('express');
 const path = require('path');
 const pages = require('./pages.js');
 
-// Iniciando o express
+// Inicia o express
 const server = express();
 
-server
-    // Utilizar body do req
-    .use(express.urlencoded({ extended: true }))
-    // Utilizando os arquivos estáticos
-    .use(express.static('public'))
+// Utiliza body do req
+server.use(express.urlencoded({ extended: true }));
 
-    // Configurar template engine
-    .set('views', path.join(__dirname, 'views'))
-    .set('view engine', 'hbs')
+// Utiliza os arquivos estáticos
+server.use(express.static('public'));
 
-    // Rotas
-    .get('/', pages.index)
-    .get('/orphanage', pages.orphanage)
-    .get('/orphanages', pages.orphanages)
-    .get('/create-orphanage', pages.createOrphanage)
-    .post('/save-orphanage', pages.saveOrphanage)
+// Configuração template engine
+server.set('views', path.join(__dirname, 'views'));
+server.set('view engine', 'hbs');
 
-// Ligar o servidor
+// Rotas
+server.get('/', pages.index);
+server.get('/orphanage', pages.orphanage);
+server.get('/orphanages', pages.orphanages);
+server.get('/create-orphanage', pages.createOrphanage);
+server.post('/save-orphanage', pages.saveOrphanage);
+
+// Inicia o servidor
 server.listen(5500);
