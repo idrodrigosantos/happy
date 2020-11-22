@@ -9,7 +9,7 @@ Sistema de orfanatos.
 ## Instalação
 ```bash
 # Clone o repositório
-$ git clone https://github.com/imsantosrodrigo/happy.git
+$ git clone https://github.com/idrodrigosantos/happy.git
 
 # Acesse o diretório
 $ cd happy
